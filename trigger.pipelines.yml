@@ -1,0 +1,5 @@
+resources:
+  - name: trigger_state_tests
+    type: CronTrigger
+    configuration:
+      interval: '*/30 * * * *'
