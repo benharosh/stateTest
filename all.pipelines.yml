@@ -2,7 +2,7 @@ resources:
   - name: test_all_state_resource
     type: FileSpec
     configuration:
-      sourceArtifactory: artifactory
+      sourceArtifactory: art_v
       pattern: test/bigFileTest.zip
 pipelines:
   - name: test_all_state
