@@ -14,7 +14,7 @@ pipelines:
         configuration:
           inputResources:
             - name: test_all_state_resource
-            - name: trigger_state_tests
+#             - name: trigger_state_tests
         execution:
           onExecute:
             - add_run_files $res_test_all_state_resource_resourcePath all_state_test
