@@ -7,7 +7,7 @@ resources:
 pipelines:
   - name: test_all_state
     configuration:
-      nodePool: k8_node_pool
+      nodePool: k8_node_pool_test
     steps:
       - name: step_0
         type: Bash
